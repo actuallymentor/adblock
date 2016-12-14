@@ -1,0 +1,23 @@
+{
+  "name": "hosts-file-adblock",
+  "version": "1.0.0",
+  "description": "An adblocker that adds known ad and malware domains to the hosts file.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actuallymentor/hosts-file-adblock.git"
+  },
+  "author": {
+    "name": "Mentor Palokaj",
+    "email": "mentor@palokaj.co",
+    "url": "https://github.com/actuallymentor"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/actuallymentor/hosts-file-adblock/issues"
+  },
+  "homepage": "https://github.com/actuallymentor/hosts-file-adblock#readme"
+}

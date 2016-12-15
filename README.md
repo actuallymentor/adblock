@@ -3,6 +3,8 @@
 
 Loads known advertising and malware hosts from [this github project]( https://github.com/StevenBlack/hosts ) to the Mac OS X /etc/hosts file. This results in an incapacity to load these hosts, blocking ads in all programs system wide.
 
+**Compatibility:** tested on Mac OSX.
+
 ## Getting started
 
 Make sure to have [ NodeJS ]( https://nodejs.org/en/ ) installed. Then use npm to install adblock:
@@ -28,3 +30,4 @@ NOTE: The hosts file is a system file, this is why adblock needs to be run with 
 
 ## Caveats
 
+The hosts file blocks system wie network calls. If you need to be able to reach certain ad/tracking domains (e.g. Google Analytics) you will have to disable adblock.

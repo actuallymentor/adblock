@@ -10,7 +10,7 @@ Loads known advertising and malware hosts from [this github project]( https://gi
 Make sure to have [ NodeJS ]( https://nodejs.org/en/ ) installed. Then use npm to install adblock:
 
 ```shell
-npm install adblock
+npm install -g adblock
 ```
 
 Start off by making a backup of your hosts file:

@@ -35,7 +35,7 @@ switch( action ){
 		// Read current hosts file
 		fs.readFile( '/etc/hosts', ( err, originalhosts ) => {
 			if ( err ) throw err
-			// Write to timestamped
+			// Write to timestamped backup file
 			fs.writeFile( '/etc/hosts.bak.' + new Date( ).getTime( ), originalhosts, err => { if ( err ) throw err } )
 		} )
 	break
@@ -67,6 +67,7 @@ switch( action ){
 					if ( err ) throw err
 					fs.writeFile( '/etc/hosts', defaulthosts, err => { 
 						if ( err ) throw err
+						// Append the original rules to the updated file
 						fs.readFile( '/etc/hosts.bak', ( err, customhosts ) => {
 							if ( err ) throw err
 							fs.appendFile( '/etc/hosts', customhosts, err => { if ( err ) throw err } )
@@ -79,6 +80,7 @@ switch( action ){
 					if ( err ) throw err
 					fs.writeFile( '/etc/hosts', latesthosts, err => {
 						if ( err ) throw err
+						// Append the original rules to the updated file
 						fs.readFile( '/etc/hosts.bak', ( err, customhosts ) => {
 							if ( err ) throw err
 							fs.appendFile( '/etc/hosts', customhosts, err => { if ( err ) throw err } )

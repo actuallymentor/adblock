@@ -1,9 +1,9 @@
 # Hosts File Adblock
 [![npm version](https://badge.fury.io/js/adblock.svg)](https://badge.fury.io/js/adblock) [![NSP Status](https://nodesecurity.io/orgs/open-source-projects/projects/24c3e1ac-5186-4cad-a7d0-092d0500c6c4/badge)](https://nodesecurity.io/orgs/open-source-projects/projects/24c3e1ac-5186-4cad-a7d0-092d0500c6c4)
 
-Loads known advertising and malware hosts from [this github project]( https://github.com/StevenBlack/hosts ) to the Mac OS X /etc/hosts file. This results in an incapacity to load these hosts, blocking ads in all programs system wide.
+Blocks ad & malware URLs system wide in all applications, not just in the browser. Loads known advertising and malware hosts from [this github project]( https://github.com/StevenBlack/hosts ) to the Mac OS X /etc/hosts file. This results in an incapacity to load these hosts, blocking ads in all programs system wide.
 
-**Compatibility:** tested on Mac OSX.
+**Compatibility:** tested on Mac OSX Sierra.
 
 ## Getting started
 

@@ -7,7 +7,7 @@ Blocks ad & malware URLs system wide in all applications, not just in the browse
 
 ## Getting started
 
-Make sure to have [ NodeJS ]( https://nodejs.org/en/ ) installed. Then use npm to install adblock:
+Make sure to have [ NodeJS ]( https://nodejs.org/en/ ) installed. Then use npm to globally install adblock:
 
 ```shell
 npm install -g adblock

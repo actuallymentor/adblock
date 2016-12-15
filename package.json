@@ -1,6 +1,6 @@
 {
   "name": "adblock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An adblocker that adds known ad and malware domains to the hosts file.",
   "main": "app.js",
   "scripts": {
